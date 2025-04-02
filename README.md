@@ -1,6 +1,4 @@
 # Asteria-Launcher
-Asteria Launcher is a custom Minecraft launcher written in Tauri, Python, and Node.js (with React)
-
 ## What is Asteria Launcher
 Asteria Launcher (Asteria for short) is a custom minecraft launcher written in Python and Node.js (with React) using the Tauri framework. Asteria is built for simplicity, compatibility, and improved Minecraft version and mod management.
 
@@ -20,3 +18,7 @@ Asteria Launcher (Asteria for short) is a custom minecraft launcher written in P
   * Automatically updates mods to new game versions using the Modrinth API
   * Performance mod suggestions when adding a game version (modded versions only)
   * Dynamic mod switching between game versions - no need to manually move mods around
+
+### Supported Platforms
+Asteria is designed to work on any system, including Linux, Windows, and MacOS!
+The launcher attempts to detect your Minecraft installation in the default path, although if it cannot be found, or you wish to use a custom path, you can still manually set it
