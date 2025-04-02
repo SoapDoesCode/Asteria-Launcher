@@ -1,6 +1,11 @@
 # Asteria-Launcher
-## What is Asteria Launcher
-Asteria Launcher (Asteria for short) is a custom minecraft launcher written in Python and Node.js (with React) using the Tauri framework. Asteria is built for simplicity, compatibility, and improved Minecraft version and mod management.
+## What is Asteria Launcher?
+Asteria Launcher (Asteria for short) is an **open-source**, custom Minecraft launcher written in **Python** and **Node.js (React)**, built using the **Tauri** framework. Asteria is designed for **simplicity, compatibility**, and **enhanced Minecraft version and mod management**.
+
+## 🚧 Development Status 🚧
+Asteria is currently **in development** and not yet ready for public release. This page serves as a placeholder for project updates, documentation, and future development.
+
+While Asteria is not yet stable, contributions and suggestions are welcome! Once development progresses, the repository will be populated with source code, pre-built releases, build instructions, and contribution guidelines.
 
 ## Features
 * Account management
@@ -10,15 +15,20 @@ Asteria Launcher (Asteria for short) is a custom minecraft launcher written in P
   * Supports creating/managing multiple versions of the game
   * Supports both versions and instances
 * Settings management
-  * Supports modifying launch settings (e.g. RAM)
-  * Modify in-game settings straight from the launcher (e.g. Controls, Video Settings)
+  * Modify launch settings (e.g. RAM allocation)
+  * Change in-game settings directly from the launcher (e.g., Controls, Video Settings)
 * Mod management
-  * Supports all mods and mod loaders - we do not modify the actual game
-  * Modrinth API support, allows installing mods inside the launcher itself
+  * Supports all mods and mod loaders - Asteria does not modify the game itself
+  * Modrinth API support for installing mods directly within the launcher
   * Automatically updates mods to new game versions using the Modrinth API
-  * Performance mod suggestions when adding a game version (modded versions only)
+  * Recommends performance mods when adding a modded game version
   * Dynamic mod switching between game versions - no need to manually move mods around
 
-### Supported Platforms
-Asteria is designed to work on any system, including Linux, Windows, and MacOS!
-The launcher attempts to detect your Minecraft installation in the default path, although if it cannot be found, or you wish to use a custom path, you can still manually set it
+## Supported Platforms
+Asteria is designed to work on any system, including **Linux, Windows, and macOS**.  
+The launcher automatically detects your Minecraft installation in its default location. If it cannot be found, or if you prefer a custom path, you can manually set it.
+
+## 🌠 Why Asteria?
+The name **Asteria** is derived from Greek mythology, meaning "Star" or "Starry one." In the myth, Asteria was the Titaness of falling stars and the night sky. She symbolizes self-transformation and the pursuit of something better — the constant striving to evolve, improve, and reach a higher potential.
+Just as Asteria sought to transcend her limitations, **Asteria Launcher** is designed to elevate the Minecraft experience, offering simplicity, better management, and enhanced flexibility to users.
+Whether it's through seamless mod management, game version handling, or performance improvements, Asteria Launcher aims to empower users with a powerful tool that simplifies and enhances the Minecraft experience.
